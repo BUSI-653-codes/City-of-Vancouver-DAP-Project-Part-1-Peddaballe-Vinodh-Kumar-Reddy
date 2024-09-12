@@ -55,3 +55,31 @@ The primary need of this project is to conduct a descriptive analysis of the yea
   * [2024_animal_control_Found_inventory.xlsx](https://github.com/user-attachments/files/16974871/2024_animal_control_Found_inventory.xlsx) contains the information of this match found dataset.
   * [2024_animal_control_inventory_lost_and_found.xlsx](https://github.com/user-attachments/files/16974850/2024_animal_control_inventory_lost_and_found.xlsx) contains the information of this lost and found inventory dataset.
 ### Step 3 - Data Storage Design
+* This phase is the backbone of the data analytic platform, where data is stored securely in the storage services provided by S3, redshift, Dynamo DB, etc, depending on the data structure. * Amazon S3 is the ideal storage service for storing large volumes of data by providing availability, durability, and scalability, and all these features make it a preferred choice.
+* I have utilized S3 Simple storage services for storing our clean and robust data for analysis purposes, as S3 offers sufficient scalability and availability and is cost-effective.
+* Below image displays my data storage design
+![step003](https://github.com/user-attachments/assets/c5b75964-cc2f-48ca-920c-3c60ea400ce0)
+### Step 4: Dataset Preparation
+* The next step in the DAP process, that is the ‘Preparation’ stage.
+* For this we are going to use ‘Microsoft Excel’ service.
+* This is because we can not be sure the datasets we took is structured as per out need.
+* To ensure this we need to do set of actions to ensure the data is in presentable format.
+* Once the datasets are prepared then we can ensure that we can use them to further design and efficient DAP.
+### Step 5: Data Ingestion & Step 6: Data Storage
+* These are the steps where we creat appropriate Bucket structure mentioned in Step 3.
+* Once the buckets & folders are created wecan them move to uploading the dataset files into AWS environment of S3 buckets.
+* This will allow ease of access to data sets in AWS environment.
+![image](https://github.com/user-attachments/assets/4602b53b-ee88-475d-a77f-3e830077962b)
+*The above image display the details of “Storage” & "Ingestion" for “**Pet Inquiries**” of "***Lost and Found Inventory Dataset***"using ‘AWS-S3’
+![image](https://github.com/user-attachments/assets/bc5aa6bf-8f6c-481a-a63e-4c501c3f224f)
+*The above image display the details of “Storage” & "Ingestion" for “**Matched Inquiries**” of "***Found Inventory Dataset***"using ‘AWS-S3’
+
+
+
+
+
+
+
+
+
+
