@@ -97,8 +97,25 @@ Note: The above image display the details of “Schema Information” for “**M
 * If necessary, we may even guarantee that the result of the ETL operation is stored in our "AWS-S3."<br>
 ![figure 31](https://github.com/user-attachments/assets/a7283be8-16ce-48dd-bf2d-645f797a5b6b)
 * The above image display the details of “ETL information” for my dataset using ‘AWS-Glue’.
-
-
-
-
-
+### Step 11: Data Analysis 
+* The analytical datasets for the operational datasets we utilized are now available.
+* The structural datasets produced by the ETL pipeline are now available for use in the analysis.
+* On the basis of the ETL outputs, we can even build a query service using the "**AWS-Athena**" service.
+* We may build tables with this service, and then use straightforward SQL queries to get the necessary data from the tables.<br>
+![figure 35](https://github.com/user-attachments/assets/96511e74-41e7-4947-bfeb-9877c6436ab5)
+* The above image display the details of “Table” for my dataset using ‘AWS-Athena’.
+* Once the results are generated based on our query we can use the resultant data by downloading it as a **".csv"** file.
+### Step 12: Data Visualization 
+* In this step I used "Microsoft Excel" to creat reports of the **".csv"** file downloaded from AWS-Athena in "Step 11".
+* My resultant reports were generated as below:<br>
+![figure 39](https://github.com/user-attachments/assets/2af9f061-94f8-4755-9fed-6137e6bebbf3)
+* The above image display the details of AWS-Athena based report using ‘Excel’.
+### Step 13: Data Publishing
+* This is the crucial step for populating the needed data for both internal and external use.
+* We can use the ***Web servers*** and ***General Servers*** for publishing the results and making them available.<br>
+![figure 42](https://github.com/user-attachments/assets/0e4638ce-b264-4795-8879-0624b7bc8190)
+* The above image display the details of “**IIS Role Installation**” of “**Web Server 1**”.
+![figure 43](https://github.com/user-attachments/assets/c2d42233-26cc-47d7-a9e2-f9ca0f108548)
+* The above image display the details of “**Reports Data**” of “**Web Server 1**”.
+![figure 46](https://github.com/user-attachments/assets/8b1b89f3-b298-4349-9052-dabef4e7ec04)
+* The above image display the details of “**Reports Data**” of “**General Server 1**”.
