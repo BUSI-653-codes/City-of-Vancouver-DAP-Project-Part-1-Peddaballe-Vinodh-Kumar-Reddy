@@ -46,7 +46,7 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 * Data or Datasets are very important when we are going to analyse something. Similarly for me to implement DAP I need some datasets and metrics to calculate.
 * As explained above I have the Animal Control Inventory Lost & Found dataset, using this am going to design my DAP. The first step is to carefully select all the relevant metrics.
 * Below displayed are a few sample metrics I selected:
-*  ![step001](https://github.com/user-attachments/assets/496f5579-6aed-48a2-a71e-5b83cb3c331e)
+![step001](https://github.com/user-attachments/assets/496f5579-6aed-48a2-a71e-5b83cb3c331e)
 *  From this list I am going to select the descriptive metric “What is the match rate of Pet Inquiries?” analysis.
 *  By doing this we can understand the total number of pet inquiries done, the number of match found inquiries, the number of inquiries still pending , and also the percentage of matched inquiries to that of total inquiries.
 ### Data Discovery
