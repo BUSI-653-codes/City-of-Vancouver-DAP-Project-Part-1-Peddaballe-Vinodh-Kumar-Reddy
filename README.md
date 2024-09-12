@@ -132,35 +132,38 @@ Note: The above image display the details of “Schema Information” for “**M
 * This **Data Protection** involves safeguarding sensitive information from unauthorized access, misuse, or breaches.
 * It is critical when handling datasets that may include personal information about pet owners or internal records.
 * For this we are creating KMS keys for encryption and decryption of data inthe S3 buckets.<br>
-
+![fig14](https://github.com/user-attachments/assets/7f0f3811-d1ff-4e36-8d5c-77517dc8971e)
 * The above image shows my newly created KMS key information.
-* I am also enabling the Bucket Versioning.<br>
-
-* The above image shows my Bucket Versioning information.
+* I am also enabling the Bucket Versioning and encrypting using the KMS key i created for both my S3 bucket and S3 backup bucket I created.<br>
+![fig15](https://github.com/user-attachments/assets/15d46b70-9a5b-48eb-81a9-34b3e7e38d4d)
+* The above images shows my S3 bucket properties information.<br>
+![fig16](https://github.com/user-attachments/assets/c58cb083-03e4-4d23-a4d2-05264aeafdb9)
+* The above images shows my S3 backup bucket properties information.<br>
 * I am also configuring the backup option by doing a mirroring replication of my S3 bucket with another bucket.<br>
-
+![fig17](https://github.com/user-attachments/assets/d11c43b3-91ca-44f2-a4fe-6167c39f1bf3)
 * The above image shows my replication information.
 ### Step 16: Data Governance
 * Data governance refers to the policies, standards, and practices for managing and using data in a way that aligns with organizational goals and regulatory requirements.
 * It ensures the quality, integrity, and security of data across its lifecycle.
 * For this first I am creating Trusted folder where i can store data which has been masked to protect sensitive data information.<br>
-
+![fig27](https://github.com/user-attachments/assets/42a7f45d-2a77-4427-b4a0-6502f05af6a7)
 * The above image shows the Trusted folder created.
 * I them creat an ETL to convert the raw data avaialble using ETL to identify and mask the sensitive information.<br>
-
+![fig28](https://github.com/user-attachments/assets/e0fb6123-ac94-41f1-b9d8-1c8003ee55a6)
 * The above image shows the ETL pipeline for saving the trusted information from raw data.
 * I then move on to storing the information retrieved from ETL into the trsuted folder.<br>
-
+![fig29](https://github.com/user-attachments/assets/ca5e6f77-1ac7-4b88-8389-86f9df496390)
 * The above image shows the resultant informations tored as csv file in trusted folder.
 ### Step 17: Data Monitoring
 * Data monitoring involves continuously tracking data usage and access to ensure compliance with governance policies, detect potential breaches, and maintain data integrity.
 * Here we will be using "**AWS CloudWatch**" service to create a dashboard based on our needs.<br>
-
+![fig39](https://github.com/user-attachments/assets/c2b37041-9b1f-4b57-bb10-98a26f017e8c)
 * The above image displays the dashboard of AWS CloudWatch
 * I then move on to create a user activity trail using the "**AWS CloudTrail**" service, so that i can track ser activities for any anamolies.<br>
-
-* The above image shows the cloud trail created for tracking user activity.
-
+![fig40](https://github.com/user-attachments/assets/8b022324-8eb3-4b4e-b7bc-854ad8d49b3c)
+* The above image shows the cloud trail created for tracking user activity.<br>
+![fig41](https://github.com/user-attachments/assets/0af61951-03a0-44ae-8a78-a303ea702d14)
+* The above image displays the information of cloud trail saved in S3.
 ## Insights and Findings:
 * The DAP designed can be used for other details as well.
 * Below are a few finding we can use from the dataset I selected in the DAP process.
