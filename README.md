@@ -114,48 +114,76 @@ Note: The above image display the details of “Schema Information” for “**M
 * This is the crucial step for populating the needed data for both internal and external use.
 * We can use the ***Web servers*** and ***General Servers*** for publishing the results and making them available.<br>
 ![figure 42](https://github.com/user-attachments/assets/0e4638ce-b264-4795-8879-0624b7bc8190)
-* The above image display the details of “**IIS Role Installation**” of “**Web Server 1**”.
+* The above image display the details of “**IIS Role Installation**” of “**Web Server 1**”.<br>
 ![figure 43](https://github.com/user-attachments/assets/c2d42233-26cc-47d7-a9e2-f9ca0f108548)
-* The above image display the details of “**Reports Data**” of “**Web Server 1**”.
+* The above image display the details of “**Reports Data**” of “**Web Server 1**”.<br>
 ![figure 46](https://github.com/user-attachments/assets/8b1b89f3-b298-4349-9052-dabef4e7ec04)
 * The above image display the details of “**Reports Data**” of “**General Server 1**”.
 ### Step 14: Data Enriching
 * This is the step where we are going to define the whole architecture of the DAP.
 * This step includes enhancing my dataset by adding additional information from external or related sources.<br>
 ![step014](https://github.com/user-attachments/assets/b9c3405c-0a19-475c-990f-2a1fd4a0fa66)
-* The Above Image contains information of the DAP "**Data Enriching**" step.
+* The Above Image contains information of the DAP "**Data Enriching**" step.<br>
 ![step014-2](https://github.com/user-attachments/assets/4032d5e0-9a5e-40ce-92e6-c362a7df1378)
-* The Above Image contains information of the DAP "**Data Enriching**" step.
+* The Above Image contains information of the DAP "**Data Enriching**" step.<br>
 ![step014-3](https://github.com/user-attachments/assets/130e6f76-7fb2-4eb2-8360-448176b7ec69)
 * The Above Image contains information of the DAP "**Data Enriching**" step.
 ### Step 15: Data Protection
 * This **Data Protection** involves safeguarding sensitive information from unauthorized access, misuse, or breaches.
 * It is critical when handling datasets that may include personal information about pet owners or internal records.
-* For this we are creating KMS keys for encryption and decryption of data inthe S3 buckets.
+* For this we are creating KMS keys for encryption and decryption of data inthe S3 buckets.<br>
 
 * The above image shows my newly created KMS key information.
-* I am also enabling the Bucket Versioning.
+* I am also enabling the Bucket Versioning.<br>
 
 * The above image shows my Bucket Versioning information.
-* I am also configuring the backup option by doing a mirroring replication of my S3 bucket with another bucket.
+* I am also configuring the backup option by doing a mirroring replication of my S3 bucket with another bucket.<br>
 
 * The above image shows my replication information.
 ### Step 16: Data Governance
-* This
-* a
-* a
-* a<br>
+* Data governance refers to the policies, standards, and practices for managing and using data in a way that aligns with organizational goals and regulatory requirements.
+* It ensures the quality, integrity, and security of data across its lifecycle.
+* For this first I am creating Trusted folder where i can store data which has been masked to protect sensitive data information.<br>
 
-* a
+* The above image shows the Trusted folder created.
+* I them creat an ETL to convert the raw data avaialble using ETL to identify and mask the sensitive information.<br>
+
+* The above image shows the ETL pipeline for saving the trusted information from raw data.
+* I then move on to storing the information retrieved from ETL into the trsuted folder.<br>
+
+* The above image shows the resultant informations tored as csv file in trusted folder.
 ### Step 17: Data Monitoring
-* This
-* a
-* a
-* a<br>
+* Data monitoring involves continuously tracking data usage and access to ensure compliance with governance policies, detect potential breaches, and maintain data integrity.
+* Here we will be using "**AWS CloudWatch**" service to create a dashboard based on our needs.<br>
 
-* a
+* The above image displays the dashboard of AWS CloudWatch
+* I then move on to create a user activity trail using the "**AWS CloudTrail**" service, so that i can track ser activities for any anamolies.<br>
 
+* The above image shows the cloud trail created for tracking user activity.
 
-
-
-
+## Insights and Findings:
+* The DAP designed can be used for other details as well.
+* Below are a few finding we can use from the dataset I selected in the DAP process.
+  * **Yearly Trends:** The analysis highlighted peaks in the number of lost animals around specific months or events.
+  * **Matched vs. Lost Percentage:** A significant portion of lost animals (X%) were successfully matched, but Y% remained lost by the end of the year.
+  * **Breed and Color Trends:** Certain breeds and colors were more commonly found or lost, which could assist in future identification and classification efforts.
+  * **Seasonality:** Increased lost animal cases were observed during certain times of the year (e.g., holidays or weather-related events).
+## Recommendations:
+* Based on the analysis, below are a few recommendations:
+  * **Improved Public Awareness Campaigns:** Focus on specific times of the year when lost animal cases are higher, encouraging pet owners to take preventive measures.
+  * **Enhanced Reporting and Matching Process:** Implement a streamlined process to increase the percentage of matched animals, including better use of online reporting systems and social media for quicker identification.
+  * **Resource Allocation:** Adjust staffing and resources during peak times when lost animals are more common to improve response time and matching effectiveness.
+## Tools and Technologies:
+* The lsit of Tools or technologies used are:
+  * Microsoft Excel
+  * AWS-S3
+  * AWS-DataBrew
+  * AWS-Glue
+  * AWS-Athena
+  * AWS-IAM
+  * AWS-KMS
+  * AWS-EC2
+  * AWS-CloudWatch
+  * AWS-CloudTrail
+  * AWS Proicing Calculator
+  * Microsoft WEb Server IIS Role Instalation
