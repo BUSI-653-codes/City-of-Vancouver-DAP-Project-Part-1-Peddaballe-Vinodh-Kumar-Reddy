@@ -40,3 +40,15 @@ The primary need of this project is to conduct a descriptive analysis of the yea
   * [2024_animal_control_inventory_lost_and_found.xlsx](https://github.com/user-attachments/files/16974850/2024_animal_control_inventory_lost_and_found.xlsx) contains the information of this lost and found inventory dataset.
 * Using both these datasets I will be planning my DAP for City of Vancouver.
 ## Methodology:
+* The process of DAP designing and implementation is complex.
+* This involves close to 17 different steps. I will be explaining on these steps in detail below:
+### Step 1 - Data Analytical Question Formulation
+* Data or Datasets are very important when we are going to analyse something. Similarly for me to implement DAP I need some datasets and metrics to calculate.
+* As explained above I have the Animal Control Inventory Lost & Found dataset, using this am going to design my DAP. The first step is to carefully select all the relevant metrics.
+* Below displayed are a few sample metrics I selected:
+*  ![step001](https://github.com/user-attachments/assets/496f5579-6aed-48a2-a71e-5b83cb3c331e)
+*  From this list I am going to select the descriptive metric “What is the match rate of Pet Inquiries?” analysis.
+*  By doing this we can understand the total number of pet inquiries done, the number of match found inquiries, the number of inquiries still pending , and also the percentage of matched inquiries to that of total inquiries.
+### Data Discovery
+
+
