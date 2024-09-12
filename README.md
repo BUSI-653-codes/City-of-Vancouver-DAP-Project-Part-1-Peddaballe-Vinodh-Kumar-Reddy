@@ -119,3 +119,20 @@ Note: The above image display the details of “Schema Information” for “**M
 * The above image display the details of “**Reports Data**” of “**Web Server 1**”.
 ![figure 46](https://github.com/user-attachments/assets/8b1b89f3-b298-4349-9052-dabef4e7ec04)
 * The above image display the details of “**Reports Data**” of “**General Server 1**”.
+### Step 14: Data Enriching
+* This is the step where we are going to define the whole architecture of the DAP.
+* This step includes enhancing my dataset by adding additional information from external or related sources.<br>
+![step014](https://github.com/user-attachments/assets/b9c3405c-0a19-475c-990f-2a1fd4a0fa66)
+* The Above Image contains information of the DAP "**Data Enriching**" step.
+![step014-2](https://github.com/user-attachments/assets/4032d5e0-9a5e-40ce-92e6-c362a7df1378)
+* The Above Image contains information of the DAP "**Data Enriching**" step.
+![step014-3](https://github.com/user-attachments/assets/130e6f76-7fb2-4eb2-8360-448176b7ec69)
+* The Above Image contains information of the DAP "**Data Enriching**" step.
+
+
+
+
+
+
+
+
