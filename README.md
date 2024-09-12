@@ -49,6 +49,9 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 ![step001](https://github.com/user-attachments/assets/496f5579-6aed-48a2-a71e-5b83cb3c331e)
 *  From this list I am going to select the descriptive metric “What is the match rate of Pet Inquiries?” analysis.
 *  By doing this we can understand the total number of pet inquiries done, the number of match found inquiries, the number of inquiries still pending , and also the percentage of matched inquiries to that of total inquiries.
-### Data Discovery
-
-
+### Step 2 - Data Discovery
+* This is the dataset I gathered pertaining to pet-related questions. The breed, color, name, gender, date of inquiry, status, and other details about pets that have been reported missing or found are all included in this dataset.
+* I also divided this into two, just like I explained int he Datasets section prior.
+  * [2024_animal_control_Found_inventory.xlsx](https://github.com/user-attachments/files/16974871/2024_animal_control_Found_inventory.xlsx) contains the information of this match found dataset.
+  * [2024_animal_control_inventory_lost_and_found.xlsx](https://github.com/user-attachments/files/16974850/2024_animal_control_inventory_lost_and_found.xlsx) contains the information of this lost and found inventory dataset.
+### Step 3 - Data Storage Design
