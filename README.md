@@ -89,7 +89,14 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 * The above image display the details of “Schema Information” for “**Found Inventory Dataset**” using ‘AWS-DataBrew’.
 ![image](https://github.com/user-attachments/assets/09b68971-8a03-45b0-80a1-f5ce49e5812f)
 Note: The above image display the details of “Schema Information” for “**Matched Inquiries Dataset**” using ‘AWS-DataBrew’.
-
+### Step 10: Data Pipeline Implementation 
+* We can begin putting the ETL pipelines created in "Step 7" into practice after our datasets have been cleansed and organized.
+* The "**AWS Glue**" service will be used for the ETL implementation.
+* With the help of this service, we may transform operational data sources' structured data into the appropriate analytical data source for our purposes.
+* We may provide the schema we want for our datasets, create an ETL job to carry out the entire design, and create an ETL pipeline diagram utilizing the components that "AWS Glue" offers.
+* If necessary, we may even guarantee that the result of the ETL operation is stored in our "AWS-S3."
+![figure 31](https://github.com/user-attachments/assets/a7283be8-16ce-48dd-bf2d-645f797a5b6b)
+* The above image display the details of “ETL information” for my dataset using ‘AWS-Glue’.
 
 
 
