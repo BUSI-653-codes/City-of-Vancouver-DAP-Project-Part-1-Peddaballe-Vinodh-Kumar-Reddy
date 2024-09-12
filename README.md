@@ -57,7 +57,7 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 ### Step 3 - Data Storage Design
 * This phase is the backbone of the data analytic platform, where data is stored securely in the storage services provided by S3, redshift, Dynamo DB, etc, depending on the data structure. * Amazon S3 is the ideal storage service for storing large volumes of data by providing availability, durability, and scalability, and all these features make it a preferred choice.
 * I have utilized S3 Simple storage services for storing our clean and robust data for analysis purposes, as S3 offers sufficient scalability and availability and is cost-effective.
-* Below image displays my data storage design
+* Below image displays my data storage design<br>
 ![step003](https://github.com/user-attachments/assets/c5b75964-cc2f-48ca-920c-3c60ea400ce0)
 ### Step 4: Dataset Preparation
 * The next step in the DAP process, that is the ‘Preparation’ stage.
@@ -68,25 +68,25 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 ### Step 5: Data Ingestion & Step 6: Data Storage
 * These are the steps where we creat appropriate Bucket structure mentioned in Step 3.
 * Once the buckets & folders are created wecan them move to uploading the dataset files into AWS environment of S3 buckets.
-* This will allow ease of access to data sets in AWS environment.
+* This will allow ease of access to data sets in AWS environment.<br>
 ![image](https://github.com/user-attachments/assets/4602b53b-ee88-475d-a77f-3e830077962b)
-*The above image display the details of “Storage” & "Ingestion" for “**Pet Inquiries**” of "***Lost and Found Inventory Dataset***"using ‘AWS-S3’
+*The above image display the details of “Storage” & "Ingestion" for “**Pet Inquiries**” of "***Lost and Found Inventory Dataset***"using ‘AWS-S3’<br>
 ![image](https://github.com/user-attachments/assets/bc5aa6bf-8f6c-481a-a63e-4c501c3f224f)
 *The above image display the details of “Storage” & "Ingestion" for “**Matched Inquiries**” of "***Found Inventory Dataset***"using ‘AWS-S3’
 ### Step 7: Data Pipeline Design 
 * The datasets we need are now available in the AWS environment.
 * The ETL pipeline design can now be started.
 * We are able to define the precise data flow, starting from the raw datasets' input and ending with the reports or final outcomes.
-* The ETL pipeline implementation's algorithm is the sole thing involved in this stage. This will provide a visual depiction of how data moves through the ETL pipeline to produce the required outputs.
+* The ETL pipeline implementation's algorithm is the sole thing involved in this stage. This will provide a visual depiction of how data moves through the ETL pipeline to produce the required outputs.<br>
 ![appx004](https://github.com/user-attachments/assets/0f36382f-7be8-4005-927a-697802f6ccfd)
 * The above image display the details of “Pets Lost & Found” ETL process.
 ### Steps 8 & 9: Data Cleaning & Data Structuring
 * Data cleaning involved converting the columns into desired schema format and ensuring consistency between the two datasets.
 * We also need to ensure the Missing or incomplete records by reviewing the datasets for accuracy of analysis.
 * For this we are goign to use the **"AWS DataBrew"** service.
-* AWS-DataBrew helps in formatting, handlng missing values, schema changes and other data cleaning and structuring tasks.
+* AWS-DataBrew helps in formatting, handlng missing values, schema changes and other data cleaning and structuring tasks.<br>
  ![image](https://github.com/user-attachments/assets/95ecfd16-db46-4427-893d-bb64ed76507a)
-* The above image display the details of “Schema Information” for “**Found Inventory Dataset**” using ‘AWS-DataBrew’.
+* The above image display the details of “Schema Information” for “**Found Inventory Dataset**” using ‘AWS-DataBrew’.<br>
 ![image](https://github.com/user-attachments/assets/09b68971-8a03-45b0-80a1-f5ce49e5812f)
 Note: The above image display the details of “Schema Information” for “**Matched Inquiries Dataset**” using ‘AWS-DataBrew’.
 ### Step 10: Data Pipeline Implementation 
@@ -94,7 +94,7 @@ Note: The above image display the details of “Schema Information” for “**M
 * The "**AWS Glue**" service will be used for the ETL implementation.
 * With the help of this service, we may transform operational data sources' structured data into the appropriate analytical data source for our purposes.
 * We may provide the schema we want for our datasets, create an ETL job to carry out the entire design, and create an ETL pipeline diagram utilizing the components that "AWS Glue" offers.
-* If necessary, we may even guarantee that the result of the ETL operation is stored in our "AWS-S3."
+* If necessary, we may even guarantee that the result of the ETL operation is stored in our "AWS-S3."<br>
 ![figure 31](https://github.com/user-attachments/assets/a7283be8-16ce-48dd-bf2d-645f797a5b6b)
 * The above image display the details of “ETL information” for my dataset using ‘AWS-Glue’.
 
