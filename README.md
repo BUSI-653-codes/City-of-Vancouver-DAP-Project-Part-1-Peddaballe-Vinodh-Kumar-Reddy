@@ -128,9 +128,32 @@ Note: The above image display the details of “Schema Information” for “**M
 * The Above Image contains information of the DAP "**Data Enriching**" step.
 ![step014-3](https://github.com/user-attachments/assets/130e6f76-7fb2-4eb2-8360-448176b7ec69)
 * The Above Image contains information of the DAP "**Data Enriching**" step.
+### Step 15: Data Protection
+* This **Data Protection** involves safeguarding sensitive information from unauthorized access, misuse, or breaches.
+* It is critical when handling datasets that may include personal information about pet owners or internal records.
+* For this we are creating KMS keys for encryption and decryption of data inthe S3 buckets.
 
+* The above image shows my newly created KMS key information.
+* I am also enabling the Bucket Versioning.
 
+* The above image shows my Bucket Versioning information.
+* I am also configuring the backup option by doing a mirroring replication of my S3 bucket with another bucket.
 
+* The above image shows my replication information.
+### Step 16: Data Governance
+* This
+* a
+* a
+* a<br>
+
+* a
+### Step 17: Data Monitoring
+* This
+* a
+* a
+* a<br>
+
+* a
 
 
 
