@@ -185,5 +185,11 @@ Note: The above image display the details of “Schema Information” for “**M
   * AWS-EC2
   * AWS-CloudWatch
   * AWS-CloudTrail
-  * AWS Proicing Calculator
   * Microsoft WEb Server IIS Role Instalation
+### Deliverables:
+* A few crucial deliverables are:
+  * **Data Analytic Platform:** Implemented on AWS, integrating data from the City of Vancouver's lost and found animal records.
+  * **Visualizations & Reports:** Generated reports and visualizations in Excel, illustrating trends, match rates, and other key findings.
+  * **Data Storage & Pipeline:** Utilized AWS S3 for storage, AWS Glue for ETL processes, and AWS Athena for querying.
+  * **Documentation:** Detailed steps and methodology used in the DAP design, including data preparation, cleaning, and monitoring.
+  * **Recommendations:** Suggestions for improving public awareness, reporting processes, and resource allocation based on the analysis.
