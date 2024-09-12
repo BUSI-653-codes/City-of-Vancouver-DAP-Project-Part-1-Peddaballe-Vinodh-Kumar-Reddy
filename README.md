@@ -38,5 +38,5 @@ The primary need of this project is to conduct a descriptive analysis of the yea
   * Sex: Animal's sex
   * State: Lost or Found status
   * [2024_animal_control_inventory_lost_and_found.xlsx](https://github.com/user-attachments/files/16974850/2024_animal_control_inventory_lost_and_found.xlsx) contains the information of this lost and found inventory dataset.
-* Using both these datasets i will be planning my DAP for City of Vancouver.
-
+* Using both these datasets I will be planning my DAP for City of Vancouver.
+## Methodology:
