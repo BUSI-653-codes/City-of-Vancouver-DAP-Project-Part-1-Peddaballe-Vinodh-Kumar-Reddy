@@ -80,9 +80,15 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 * The ETL pipeline implementation's algorithm is the sole thing involved in this stage. This will provide a visual depiction of how data moves through the ETL pipeline to produce the required outputs.
 ![appx004](https://github.com/user-attachments/assets/0f36382f-7be8-4005-927a-697802f6ccfd)
 * The above image display the details of “Pets Lost & Found” ETL process.
-
-
-
+### Steps 8 & 9: Data Cleaning & Data Structuring
+* Data cleaning involved converting the columns into desired schema format and ensuring consistency between the two datasets.
+* We also need to ensure the Missing or incomplete records by reviewing the datasets for accuracy of analysis.
+* For this we are goign to use the **"AWS DataBrew"** service.
+* AWS-DataBrew helps in formatting, handlng missing values, schema changes and other data cleaning and structuring tasks.
+ ![image](https://github.com/user-attachments/assets/95ecfd16-db46-4427-893d-bb64ed76507a)
+* The above image display the details of “Schema Information” for “**Found Inventory Dataset**” using ‘AWS-DataBrew’.
+![image](https://github.com/user-attachments/assets/09b68971-8a03-45b0-80a1-f5ce49e5812f)
+Note: The above image display the details of “Schema Information” for “**Matched Inquiries Dataset**” using ‘AWS-DataBrew’.
 
 
 
