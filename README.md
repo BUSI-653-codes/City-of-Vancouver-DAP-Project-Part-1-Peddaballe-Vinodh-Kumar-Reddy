@@ -19,5 +19,24 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 * I decided this will be my dataset to get information related to lost and found cases related to pets in city of Vancouver.
 * For the DAP design there are close to 17 steps. Am going to define and describe all these steps below.
 ## Datasets
-[2024_animal_control_inventory_lost_and_found.xlsx](https://github.com/user-attachments/files/16974850/2024_animal_control_inventory_lost_and_found.xlsx)
+* There are two datasets wi=hich i will be using here.
+* The first dataset is **"Found Inventory Dataset"**, it contains information on animals found, with columns such as:
+  * SNO: Serial Number
+  * Breed: Animal breed
+  * Color: Color description
+  * Date: Date when the animal was found
+  * Name: Name of the animal
+  * Sex: Animal's sex
+  * State: Status (Yes indicating matched or found)
+  * [2024_animal_control_Found_inventory.xlsx](https://github.com/user-attachments/files/16974871/2024_animal_control_Found_inventory.xlsx) contains the information of this match found dataset.
+* The second datset is **"Lost and Found Inventory Dataset"**, it Contains details on lost animals, with similar columns, including:
+  * SNO: Serial Number
+  * Breed: Animal breed
+  * Color: Color description
+  * Date: Date of the record
+  * Name: Name of the animal
+  * Sex: Animal's sex
+  * State: Lost or Found status
+  * [2024_animal_control_inventory_lost_and_found.xlsx](https://github.com/user-attachments/files/16974850/2024_animal_control_inventory_lost_and_found.xlsx) contains the information of this lost and found inventory dataset.
+* Using both these datasets i will be planning my DAP for City of Vancouver.
 
