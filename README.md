@@ -73,7 +73,13 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 *The above image display the details of “Storage” & "Ingestion" for “**Pet Inquiries**” of "***Lost and Found Inventory Dataset***"using ‘AWS-S3’
 ![image](https://github.com/user-attachments/assets/bc5aa6bf-8f6c-481a-a63e-4c501c3f224f)
 *The above image display the details of “Storage” & "Ingestion" for “**Matched Inquiries**” of "***Found Inventory Dataset***"using ‘AWS-S3’
-
+### Step 7: Data Pipeline Design 
+* The datasets we need are now available in the AWS environment.
+* The ETL pipeline design can now be started.
+* We are able to define the precise data flow, starting from the raw datasets' input and ending with the reports or final outcomes.
+* The ETL pipeline implementation's algorithm is the sole thing involved in this stage. This will provide a visual depiction of how data moves through the ETL pipeline to produce the required outputs.
+![appx004](https://github.com/user-attachments/assets/0f36382f-7be8-4005-927a-697802f6ccfd)
+* The above image display the details of “Pets Lost & Found” ETL process.
 
 
 
