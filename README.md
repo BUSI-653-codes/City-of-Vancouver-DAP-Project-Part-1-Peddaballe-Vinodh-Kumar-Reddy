@@ -1,10 +1,10 @@
-<h1 align="center">AWS Project Assignemnt</h1>
+<h1 align="center">City of Vancouver Project Part 1 Assignemnt</h1>
 <p align="center">
 Peddaballe Vinodh Kumar Reddy [2212316] <br>
 University Canada West<br>
 BUSI 653, Section 04<br>
 Instructor: Mahmood Mortazavi Dehkordi<br>
-Due Date: 17th September 2024<br>
+Due Date: 27th August 2024<br>
 </p>
 
 ___
@@ -17,7 +17,7 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 ## Project Objective:
 * Pets have become a major part of our lives.
 * I decided this will be my dataset to get information related to lost and found cases related to pets in city of Vancouver.
-* For the DAP design there are close to 17 steps. Am going to define and describe all these steps below.
+* For the DAP design there are close to 13 steps. Am going to define and describe all these steps below.
 ## Datasets
 * There are two datasets wi=hich i will be using here.
 * The first dataset is **"Found Inventory Dataset"**, it contains information on animals found, with columns such as:
