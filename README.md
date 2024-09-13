@@ -66,8 +66,8 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 * To ensure this we need to do set of actions to ensure the data is in presentable format.
 * Once the datasets are prepared then we can ensure that we can use them to further design and efficient DAP.
 ### Step 5: Data Ingestion & Step 6: Data Storage
-* These are the steps where we creat appropriate Bucket structure mentioned in Step 3.
-* Once the buckets & folders are created wecan them move to uploading the dataset files into AWS environment of S3 buckets.
+* These are the steps where we create appropriate Bucket structure mentioned in Step 3.
+* Once the buckets & folders are created we can then move to uploading the dataset files into AWS environment of S3 buckets.
 * This will allow ease of access to data sets in AWS environment.<br>
 ![image](https://github.com/user-attachments/assets/4602b53b-ee88-475d-a77f-3e830077962b)
 *The above image display the details of “Storage” & "Ingestion" for “**Pet Inquiries**” of "***Lost and Found Inventory Dataset***"using ‘AWS-S3’<br>
@@ -83,8 +83,8 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 ### Steps 8 & 9: Data Cleaning & Data Structuring
 * Data cleaning involved converting the columns into desired schema format and ensuring consistency between the two datasets.
 * We also need to ensure the Missing or incomplete records by reviewing the datasets for accuracy of analysis.
-* For this we are goign to use the **"AWS DataBrew"** service.
-* AWS-DataBrew helps in formatting, handlng missing values, schema changes and other data cleaning and structuring tasks.<br>
+* For this we are going to use the **"AWS DataBrew"** service.
+* AWS-DataBrew helps in formatting, handling missing values, schema changes and other data cleaning and structuring tasks.<br>
  ![image](https://github.com/user-attachments/assets/95ecfd16-db46-4427-893d-bb64ed76507a)
 * The above image display the details of “Schema Information” for “**Found Inventory Dataset**” using ‘AWS-DataBrew’.<br>
 ![image](https://github.com/user-attachments/assets/09b68971-8a03-45b0-80a1-f5ce49e5812f)
@@ -106,7 +106,7 @@ Note: The above image display the details of “Schema Information” for “**M
 * The above image display the details of “Table” for my dataset using ‘AWS-Athena’.
 * Once the results are generated based on our query we can use the resultant data by downloading it as a **".csv"** file.
 ### Step 12: Data Visualization 
-* In this step I used "Microsoft Excel" to creat reports of the **".csv"** file downloaded from AWS-Athena in "Step 11".
+* In this step I used "Microsoft Excel" to create reports of the **".csv"** file downloaded from AWS-Athena in "Step 11".
 * My resultant reports were generated as below:<br>
 ![figure 39](https://github.com/user-attachments/assets/2af9f061-94f8-4755-9fed-6137e6bebbf3)
 * The above image display the details of AWS-Athena based report using ‘Excel’.
