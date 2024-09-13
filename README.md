@@ -132,14 +132,14 @@ Note: The above image display the details of “Schema Information” for “**M
   * **Enhanced Reporting and Matching Process:** Implement a streamlined process to increase the percentage of matched animals, including better use of online reporting systems and social media for quicker identification.
   * **Resource Allocation:** Adjust staffing and resources during peak times when lost animals are more common to improve response time and matching effectiveness.
 ## Tools and Technologies:
-* The lsit of Tools or technologies used are:
+* The list of Tools or technologies used are:
   * Microsoft Excel
   * AWS-S3
   * AWS-DataBrew
   * AWS-Glue
   * AWS-Athena
   * AWS-EC2
-  * Microsoft WEb Server IIS Role Instalation
+  * Microsoft Web Server IIS Role Installation
 ### Deliverables:
 * A few crucial deliverables are:
   * **Data Analytic Platform:** Implemented on AWS, integrating data from the City of Vancouver's lost and found animal records.
