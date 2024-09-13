@@ -147,4 +147,4 @@ Note: The above image display the details of “Schema Information” for “**M
   * **Data Storage & Pipeline:** Utilized AWS S3 for storage, AWS Glue for ETL processes, and AWS Athena for querying.
   * **Documentation:** Detailed steps and methodology used in the DAP design, including data preparation, cleaning, and monitoring.
   * **Recommendations:** Suggestions for improving public awareness, reporting processes, and resource allocation based on the analysis. <br>
-#### This AWS Assignment highlish my whole process of designing a DAP for City of Vancouver.
+#### This AWS Assignment highlights my whole process of designing a DAP for City of Vancouver.
