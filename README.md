@@ -19,7 +19,7 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 * I decided this will be my dataset to get information related to lost and found cases related to pets in city of Vancouver.
 * For the DAP design there are close to 13 steps. Am going to define and describe all these steps below.
 ## Datasets
-* There are two datasets wi=hich i will be using here.
+* There are two datasets which i will be using here.
 * The first dataset is **"Found Inventory Dataset"**, it contains information on animals found, with columns such as:
   * SNO: Serial Number
   * Breed: Animal breed
