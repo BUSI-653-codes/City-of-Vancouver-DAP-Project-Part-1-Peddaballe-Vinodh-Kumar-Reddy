@@ -78,7 +78,8 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 * The datasets we need are now available in the AWS environment.
 * The ETL pipeline design can now be started.
 * We are able to define the precise data flow, starting from the raw datasets' input and ending with the reports or final outcomes.
-* The ETL pipeline implementation's algorithm is the sole thing involved in this stage. This will provide a visual depiction of how data moves through the ETL pipeline to produce the required outputs.<br>
+* The ETL pipeline implementation's algorithm is the sole thing involved in this stage.
+* This will provide a visual depiction of how data moves through the ETL pipeline to produce the required outputs.<br>
 ![appx004](https://github.com/user-attachments/assets/0f36382f-7be8-4005-927a-697802f6ccfd)
 * The above image display the details of “Pets Lost & Found” ETL process.
 ### Steps 8 & 9: Data Cleaning & Data Structuring
