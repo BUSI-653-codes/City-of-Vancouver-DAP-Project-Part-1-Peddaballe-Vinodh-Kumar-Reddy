@@ -41,7 +41,7 @@ The primary need of this project is to conduct a descriptive analysis of the yea
 * Using both these datasets I will be planning my DAP for City of Vancouver.
 ## Methodology:
 * The process of DAP designing and implementation is complex.
-* This involves close to 17 different steps. I will be explaining on these steps in detail below:
+* This involves close to 13 different steps. I will be explaining on these steps in detail below:
 ### Step 1 - Data Analytical Question Formulation
 * Data or Datasets are very important when we are going to analyse something. Similarly for me to implement DAP I need some datasets and metrics to calculate.
 * As explained above I have the Animal Control Inventory Lost & Found dataset, using this am going to design my DAP. The first step is to carefully select all the relevant metrics.
